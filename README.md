@@ -1,7 +1,8 @@
-# Tutorial: Dynamical causal modelling: a Bayesian computational framework for multi-scale hypothesis-testing  
+# IJCAI Tutorial
+## Dynamical causal modelling: a Bayesian computational framework for multi-scale hypothesis-testing  
 This tutorial will teach the conceptual background and practical skills of mesoscopic model building in (human) neuroscience using DCM. We will focus on multi-modal hypothesis-testing with a concrete case study of how to link structural neural data (neurotransmitter) to functional electroencephalographic data. The taught skills are essential to utilise vast amounts of (openly-accessible) neural / biological data effectively for testing multi-scale hypothesis about structure-function relationships in (human) brains; it facilitates translational / pharmaceutical / medical, and computational research. 
 
-Specifically, using the academic open-source freeware Statistical Parametric Mapping (SPM)[1,2], we demonstrate how to model human intracranial EEG in the frequency domain, and to test how neurotransmitter receptor data explains regional variations across the cortex [3,4]. For this, an established neural mass model - the canonical microcircuit (CMC)[5,6]-, variational Bayesian inference - dynamic causal modelling (DCM)[7,8]-, hierarchical hypothesis testing - parametric emirical Bayes (PEB)[9,10] -, and open source iEEG [11] and receptor density data [12] will be used. 
+Using the academic open-source freeware Statistical Parametric Mapping (SPM)[1,2], we demonstrate how to model human intracranial EEG in the frequency domain, and to test how neurotransmitter receptor data explains regional variations across the cortex [3,4]. For this, an established neural mass model - the canonical microcircuit (CMC)[5,6]-, variational Bayesian inference - dynamic causal modelling (DCM)[7,8]-, hierarchical hypothesis testing - parametric emirical Bayes (PEB)[9,10] -, and open source iEEG [11] and receptor density data [12] will be used. 
 
 DCM is an established causal modelling technique in neuroscience, and it is widely used to test hypotheses related to neural imaging (functional magnetic resonance imaging (fMRI)) and electrophysiological data (magneto- / electroencephalography (M/EEG)). The technique is effective, as it relies on approximate Bayesian inference using variational Laplace, transparent and flexible, as an open source academic freeware which can be adjusted as needed, and it allows hierarchical hypothesis-testing via model specifications, priors, and group-level constraints.    
 
@@ -34,6 +35,8 @@ Alternatives to using MATLAB:
 - Inference for baseline and prior-informed models: models with uninformed and neuroreceptor-informed priors are inferred, and it is explained how priors are effective in guiding the exploration of the evidence landscape  
 - Model evaluation using the variational free energy (FE) (evidence lower bound): FE offers a principled metric to evaluate and compare models as it accounts for both accuracy and complexity; we will describe how this metric is used, and how modelling results can be reported 
 - Bayesian model comparison, selection, reduction, and parametric group analyses: DCM offers effective comparison of multiple model / hypotheses; we will explain the procedure using practical examples
+
+---
 
 ## References
 #### Statistical parametric mapping
