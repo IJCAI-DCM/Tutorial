@@ -6,3 +6,5 @@ This tutorial will teach the conceptual background and practical skills of mesos
 Specifically, using the academic open-source freeware Statistical Parametric Mapping (SPM)[Tierney, 1,2], we demonstrate how to model human intracranial EEG in the frequency domain, and to test how neurotransmitter receptor data explains regional variations across the cortex [Stoof, 3]. For this, an established neural mass model - the canonical microcircuit (CMC) [Bastos, 4,5]-, variational Bayesian inference - dynamic causal modelling (DCM)[Friston, 2003, Daunizeau, 2013 (6,7)]-, hierarchical hypothesis testing - parametric emirical Bayes (PEB)[Friston, 2016, Zeidman, 2018 (8,9)] -, and open source iEEG [Frauscher, 10] and receptor density data [Palomero, 11] will be used. 
 
 As the approach is efficient, flexible and adaptive, you will be able to model and explore many different datasets and hypotheses.
+
+## Test
