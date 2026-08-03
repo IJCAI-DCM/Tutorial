@@ -37,32 +37,32 @@ Alternatives to using MATLAB:
 
 ## References
 #### Statistical parametric mapping
-- [1] Tierney, Tim M., Nicholas A. Alexander, John Ashburner, Nicole Labra Avila, Yaël Balbastre, Gareth Barnes, Yulia Bezsudnova, et al. 2025. “SPM 25: Open Source Neuroimaging Analysis Software.” Journal of Open Source Software 10 (110): 8103.
-- [2] Friston, Karl, John Ashburner, Stefan Kiebel, Thomas Nichols, and William Penny. 2006. Statistical Parametric Mapping: The Analysis of Functional Brain Images. Edited by William Penny, Karl J. Friston, John T. Ashburner, Stefan J. Kiebel, and Thomas E. Nichols. San Diego, CA: Academic Press.
+- [[1](https://joss.theoj.org/papers/10.21105/joss.08103)] Tierney, Tim M., Nicholas A. Alexander, John Ashburner, Nicole Labra Avila, Yaël Balbastre, Gareth Barnes, Yulia Bezsudnova, et al. 2025. “SPM 25: Open Source Neuroimaging Analysis Software.” Journal of Open Source Software 10 (110): 8103.
+- [[2](https://www.fil.ion.ucl.ac.uk/spm/doc/books/spm/Statistical_Parametric_Mapping_The_Analysis_of_Functional_Brain_Images.pdf)] Friston, Karl, John Ashburner, Stefan Kiebel, Thomas Nichols, and William Penny. 2006. Statistical Parametric Mapping: The Analysis of Functional Brain Images. Edited by William Penny, Karl J. Friston, John T. Ashburner, Stefan J. Kiebel, and Thomas E. Nichols. San Diego, CA: Academic Press.
 
 #### Modelling intracranial EEG and neurotransmitter receptors
-- [3] Baud, Maxime O., and Dimitri Van De Ville. 2026. “Synaptic Tuning of Brain Rhythms: From Chemical Signalling to Cortical Oscillations.” Human Brain Mapping 47 (2): e70463.
-- [4] Stoof, U. M., K. J. Friston, M. Tisdall, G. K. Cooray, and R. E. Rosch. 2025. “Topographic Variation in Human Neurotransmitter Receptor Densities Explains Differences in Intracranial EEG Spectra.” Human Brain Mapping 46 (16): e70393.
+- [[3](https://doi.org/10.1002/hbm.70463)] Baud, Maxime O., and Dimitri Van De Ville. 2026. “Synaptic Tuning of Brain Rhythms: From Chemical Signalling to Cortical Oscillations.” Human Brain Mapping 47 (2): e70463.
+- [[4](https://doi.org/10.1002/hbm.70393)] Stoof, U. M., K. J. Friston, M. Tisdall, G. K. Cooray, and R. E. Rosch. 2025. “Topographic Variation in Human Neurotransmitter Receptor Densities Explains Differences in Intracranial EEG Spectra.” Human Brain Mapping 46 (16): e70393.
 
 #### Dynamic causal modelling (DCM)
-- [5] Daunizeau, J., O. David, and K. E. Stephan. 2011. “Dynamic Causal Modelling: A Critical Review of the Biophysical and Statistical Foundations.” NeuroImage 58 (2): 312–22.
-- [6] Friston, Karl J., L. Harrison, and W. Penny. 2003. “Dynamic Causal Modelling.” NeuroImage 19 (4): 1273–1302.
+- [[5](https://doi.org/10.1016/j.neuroimage.2009.11.062)] Daunizeau, J., O. David, and K. E. Stephan. 2011. “Dynamic Causal Modelling: A Critical Review of the Biophysical and Statistical Foundations.” NeuroImage 58 (2): 312–22.
+- [[6](https://doi.org/10.1016/s1053-8119(03)00202-7)] Friston, Karl J., L. Harrison, and W. Penny. 2003. “Dynamic Causal Modelling.” NeuroImage 19 (4): 1273–1302.
 
 #### Parametric empirical Bayes (PEB)
-- [7] Friston, Karl J., Vladimir Litvak, Ashwini Oswal, Adeel Razi, Klaas E. Stephan, Bernadette C. M. van Wijk, Gabriel Ziegler, and Peter Zeidman. 2016. “Bayesian Model Reduction and Empirical Bayes for Group (DCM) Studies.” NeuroImage 128 (March): 413–31.
-- [8] Zeidman, Peter, Amirhossein Jafarian, Mohamed L. Seghier, Vladimir Litvak, Hayriye Cagnan, Cathy J. Price, and Karl J. Friston. 2019. “A Guide to Group Effective Connectivity Analysis, Part 2: Second Level Analysis with PEB.” NeuroImage 200 (October): 12–25.
+- [[7](https://doi.org/10.1016/j.neuroimage.2015.11.015)] Friston, Karl J., Vladimir Litvak, Ashwini Oswal, Adeel Razi, Klaas E. Stephan, Bernadette C. M. van Wijk, Gabriel Ziegler, and Peter Zeidman. 2016. “Bayesian Model Reduction and Empirical Bayes for Group (DCM) Studies.” NeuroImage 128 (March): 413–31.
+- [[8](https://doi.org/10.1016/j.neuroimage.2019.06.032)] Zeidman, Peter, Amirhossein Jafarian, Mohamed L. Seghier, Vladimir Litvak, Hayriye Cagnan, Cathy J. Price, and Karl J. Friston. 2019. “A Guide to Group Effective Connectivity Analysis, Part 2: Second Level Analysis with PEB.” NeuroImage 200 (October): 12–25.
 
 #### Canonical microcircuit model (CMC)
-- [9] Bastos, André, W. Martin Usrey, Rick A. Adams, George R. Mangun, Pascal Fries, and Karl J. Friston. 2012. “Canonical Microcircuits for Predictive Coding.” Neuron 76 (4): 695–711.
-- [10] Moran, Dimitris A. Pinotsis, and Karl J. Friston. 2013. “Neural Masses and Fields in Dynamic Causal Modeling.” Frontiers in Computational Neuroscience 7 (May): 57.
+- [[9](https://doi.org/10.1016/j.neuron.2012.10.038)] Bastos, André, W. Martin Usrey, Rick A. Adams, George R. Mangun, Pascal Fries, and Karl J. Friston. 2012. “Canonical Microcircuits for Predictive Coding.” Neuron 76 (4): 695–711.
+- [[10](https://doi.org/10.3389/fncom.2013.00057)] Moran, Dimitris A. Pinotsis, and Karl J. Friston. 2013. “Neural Masses and Fields in Dynamic Causal Modeling.” Frontiers in Computational Neuroscience 7 (May): 57.
 
 #### Normative intracranial EEG atlas
-- [11] Frauscher, Birgit, Nicolas von Ellenrieder, Rina Zelmann, Irena Doležalová, Lorella Minotti, André Olivier, Jeffery Hall, et al. 2018. “Atlas of the Normal Intracranial Electroencephalogram: Neurophysiological Awake Activity in Different Cortical Areas.” Brain: A Journal of Neurology 141 (4): 1130–44.
+- [[11](https://doi.org/10.1093/brain/awy035)] Frauscher, Birgit, Nicolas von Ellenrieder, Rina Zelmann, Irena Doležalová, Lorella Minotti, André Olivier, Jeffery Hall, et al. 2018. “Atlas of the Normal Intracranial Electroencephalogram: Neurophysiological Awake Activity in Different Cortical Areas.” Brain: A Journal of Neurology 141 (4): 1130–44.
 
 #### Autoradiography-derived neurotransmitter receptor densities
-- [12] Zilles, Karl, and Nicola Palomero-Gallagher. 2017. “Multiple Transmitter Receptors in Regions and Layers of the Human Cerebral Cortex.” Frontiers in Neuroanatomy 11 (September): 78.
+- [[12](https://doi.org/10.3389/fnana.2017.00078)] Zilles, Karl, and Nicola Palomero-Gallagher. 2017. “Multiple Transmitter Receptors in Regions and Layers of the Human Cerebral Cortex.” Frontiers in Neuroanatomy 11 (September): 78.
 
 ### Efficient computing with microciruits
-- [13] George, Dileep, Miguel Lázaro-Gredilla, Wolfgang Lehrach, Antoine Dedieu, Guangyao Zhou, and Joseph Marino. 2025. “A Detailed Theory of Thalamic and Cortical Microcircuits for Predictive Visual Inference.” Science Advances 11 (6): eadr6698.
-- [14] Douglas, P. K. 2025. “Computing with Canonical Microcircuits.” arXiv [q-Bio.NC]. arXiv. https://doi.org/10.48550/arXiv.2508.06501.
+- [[13](https://doi.org/10.1126/sciadv.adr6698)] George, Dileep, Miguel Lázaro-Gredilla, Wolfgang Lehrach, Antoine Dedieu, Guangyao Zhou, and Joseph Marino. 2025. “A Detailed Theory of Thalamic and Cortical Microcircuits for Predictive Visual Inference.” Science Advances 11 (6): eadr6698.
+- [[14](https://doi.org/10.48550/arXiv.2508.06501.)] Douglas, P. K. 2025. “Computing with Canonical Microcircuits.” arXiv [q-Bio.NC]. arXiv.
 
