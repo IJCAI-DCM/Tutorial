@@ -1,10 +1,68 @@
-# Tutorial
-Dynamic causal modelling (DCM) is an established causal modelling technique in neuroscience, which is widely used to test hypotheses related to neural imaging (functional magnetic resonance imaging (fMRI)) and electrophysiological data (magneto- / electroencephalography (M/EEG)). The technique is effective, as it relies on approximate Bayesian inference using variational Laplace, transparent and flexible, as an open source academic freeware which can be adjusted as needed, and it allows hierarchical hypothesis-testing via model specifications, priors, and group-level constraints.    
-
+# Tutorial: Dynamical causal modelling: a Bayesian computational framework for multi-scale hypothesis-testing  
 This tutorial will teach the conceptual background and practical skills of mesoscopic model building in (human) neuroscience using DCM. We will focus on multi-modal hypothesis-testing with a concrete case study of how to link structural neural data (neurotransmitter) to functional electroencephalographic data. The taught skills are essential to utilise vast amounts of (openly-accessible) neural / biological data effectively for testing multi-scale hypothesis about structure-function relationships in (human) brains; it facilitates translational / pharmaceutical / medical, and computational research. 
 
-Specifically, using the academic open-source freeware Statistical Parametric Mapping (SPM)[Tierney, 1,2], we demonstrate how to model human intracranial EEG in the frequency domain, and to test how neurotransmitter receptor data explains regional variations across the cortex [Stoof, 3]. For this, an established neural mass model - the canonical microcircuit (CMC) [Bastos, 4,5]-, variational Bayesian inference - dynamic causal modelling (DCM)[Friston, 2003, Daunizeau, 2013 (6,7)]-, hierarchical hypothesis testing - parametric emirical Bayes (PEB)[Friston, 2016, Zeidman, 2018 (8,9)] -, and open source iEEG [Frauscher, 10] and receptor density data [Palomero, 11] will be used. 
+Specifically, using the academic open-source freeware Statistical Parametric Mapping (SPM)[1,2], we demonstrate how to model human intracranial EEG in the frequency domain, and to test how neurotransmitter receptor data explains regional variations across the cortex [3,4]. For this, an established neural mass model - the canonical microcircuit (CMC)[5,6]-, variational Bayesian inference - dynamic causal modelling (DCM)[7,8]-, hierarchical hypothesis testing - parametric emirical Bayes (PEB)[9,10] -, and open source iEEG [11] and receptor density data [12] will be used. 
+
+DCM is an established causal modelling technique in neuroscience, and it is widely used to test hypotheses related to neural imaging (functional magnetic resonance imaging (fMRI)) and electrophysiological data (magneto- / electroencephalography (M/EEG)). The technique is effective, as it relies on approximate Bayesian inference using variational Laplace, transparent and flexible, as an open source academic freeware which can be adjusted as needed, and it allows hierarchical hypothesis-testing via model specifications, priors, and group-level constraints.    
 
 As the approach is efficient, flexible and adaptive, you will be able to model and explore many different datasets and hypotheses.
 
-## Test
+## Relevance
+We present an effective, principled framework to integrate neural data and test any kind of hypothesis relating to mesoscopic functioning of the (human) brain. This is relevant for applied and theoretical (computational) clinical / medical / translational / pharmaceutical / biological researchers, who aim to understand mechanisms and dynamics in the brain, how dysfunctions are caused, and how, e.g., underlying neurobiology enables function and can be manipulated.
+
+Further, (mesoscale) neuro-inspired architecture is more (energetically) efficient, causal, and capable than many current implementations of artificial intelligence. In that sense, theoretical / computational neuroscience offers insight about the implementation of natural intelligence and neural principles underlying cognitive processes [13,14].
+
+## Software      
+SPM [Download](https://www.fil.ion.ucl.ac.uk/spm/), [Documentation](https://www.fil.ion.ucl.ac.uk/spm/docs/) [1,2]
+
+The SPM software is written in MathWorks MATLAB, and we will use MATLAB code. Therefore, to implement or run the code directly in the tutorial, a MATLAB license would be required. Please download and install the software to follow along (see also [1]).
+
+Alternatives to using MATLAB:
+- pre-compilled MATLAB SPM code and run via command line
+- Octave as a free MATLAB alternative  
+- SPM in Python, and adjusting the code in our example
+
+## Tutorial contents
+### Theory and concepts (30 min)
+- (generative) models and data modalities in neuroscience research: the purpose and types of in silico models in neuroscience are described, at which spatial scales they can be used, and which (where) data are available
+- Mesoscopic models - neural mass model and canonical microcircuit: mesoscopic models offer (semi)mechanistic explanations as the combine neuroanatomical / -physiological specification with abstraction, which allows them to conceptually bridge the micro- to macro-scale; the reasoning and specification of the DCM canonical microcircuit as a meso-scale model are explained
+- Dynamic causal modelling procedures - Bayes theorem, variational Laplace, hierarchical models: foundations of Bayesian modelling and inference are described and put in context to the DCM framework; it is explained how hypotheses are tested and models compared using hierarchical procedures
+
+### Practical part (75 min)	
+- Statistical parametric mapping (SPM) freeware / source code and DCM setup: general aspects of the freeware are outlined; a DCM model is setup, its data structure described, and relevant functions explained  
+- Implementation of hierarchical hypotheses to constrain parameters: priors can be used to constrain or inform the inference, and therefore, we will give an overview of how this can be done in DCM to improve model fits
+- Inference for baseline and prior-informed models: models with uninformed and neuroreceptor-informed priors are inferred, and it is explained how priors are effective in guiding the exploration of the evidence landscape  
+- Model evaluation using the variational free energy (FE) (evidence lower bound): FE offers a principled metric to evaluate and compare models as it accounts for both accuracy and complexity; we will describe how this metric is used, and how modelling results can be reported 
+- Bayesian model comparison, selection, reduction, and parametric group analyses: DCM offers effective comparison of multiple model / hypotheses; we will explain the procedure using practical examples
+
+## References
+#### Statistical parametric mapping
+- [1] Tierney, Tim M., Nicholas A. Alexander, John Ashburner, Nicole Labra Avila, Yaël Balbastre, Gareth Barnes, Yulia Bezsudnova, et al. 2025. “SPM 25: Open Source Neuroimaging Analysis Software.” Journal of Open Source Software 10 (110): 8103.
+- [2] Friston, Karl, John Ashburner, Stefan Kiebel, Thomas Nichols, and William Penny. 2006. Statistical Parametric Mapping: The Analysis of Functional Brain Images. Edited by William Penny, Karl J. Friston, John T. Ashburner, Stefan J. Kiebel, and Thomas E. Nichols. San Diego, CA: Academic Press.
+
+#### Modelling intracranial EEG and neurotransmitter receptors
+- [3] Baud, Maxime O., and Dimitri Van De Ville. 2026. “Synaptic Tuning of Brain Rhythms: From Chemical Signalling to Cortical Oscillations.” Human Brain Mapping 47 (2): e70463.
+- [4] Stoof, U. M., K. J. Friston, M. Tisdall, G. K. Cooray, and R. E. Rosch. 2025. “Topographic Variation in Human Neurotransmitter Receptor Densities Explains Differences in Intracranial EEG Spectra.” Human Brain Mapping 46 (16): e70393.
+
+#### Dynamic causal modelling (DCM)
+- [5] Daunizeau, J., O. David, and K. E. Stephan. 2011. “Dynamic Causal Modelling: A Critical Review of the Biophysical and Statistical Foundations.” NeuroImage 58 (2): 312–22.
+- [6] Friston, Karl J., L. Harrison, and W. Penny. 2003. “Dynamic Causal Modelling.” NeuroImage 19 (4): 1273–1302.
+
+#### Parametric empirical Bayes (PEB)
+- [7] Friston, Karl J., Vladimir Litvak, Ashwini Oswal, Adeel Razi, Klaas E. Stephan, Bernadette C. M. van Wijk, Gabriel Ziegler, and Peter Zeidman. 2016. “Bayesian Model Reduction and Empirical Bayes for Group (DCM) Studies.” NeuroImage 128 (March): 413–31.
+- [8] Zeidman, Peter, Amirhossein Jafarian, Mohamed L. Seghier, Vladimir Litvak, Hayriye Cagnan, Cathy J. Price, and Karl J. Friston. 2019. “A Guide to Group Effective Connectivity Analysis, Part 2: Second Level Analysis with PEB.” NeuroImage 200 (October): 12–25.
+
+#### Canonical microcircuit model (CMC)
+- [9] Bastos, André, W. Martin Usrey, Rick A. Adams, George R. Mangun, Pascal Fries, and Karl J. Friston. 2012. “Canonical Microcircuits for Predictive Coding.” Neuron 76 (4): 695–711.
+- [10] Moran, Dimitris A. Pinotsis, and Karl J. Friston. 2013. “Neural Masses and Fields in Dynamic Causal Modeling.” Frontiers in Computational Neuroscience 7 (May): 57.
+
+#### Normative intracranial EEG atlas
+- [11] Frauscher, Birgit, Nicolas von Ellenrieder, Rina Zelmann, Irena Doležalová, Lorella Minotti, André Olivier, Jeffery Hall, et al. 2018. “Atlas of the Normal Intracranial Electroencephalogram: Neurophysiological Awake Activity in Different Cortical Areas.” Brain: A Journal of Neurology 141 (4): 1130–44.
+
+#### Autoradiography-derived neurotransmitter receptor densities
+- [12] Zilles, Karl, and Nicola Palomero-Gallagher. 2017. “Multiple Transmitter Receptors in Regions and Layers of the Human Cerebral Cortex.” Frontiers in Neuroanatomy 11 (September): 78.
+
+### Efficient computing with microciruits
+- [13] George, Dileep, Miguel Lázaro-Gredilla, Wolfgang Lehrach, Antoine Dedieu, Guangyao Zhou, and Joseph Marino. 2025. “A Detailed Theory of Thalamic and Cortical Microcircuits for Predictive Visual Inference.” Science Advances 11 (6): eadr6698.
+- [14] Douglas, P. K. 2025. “Computing with Canonical Microcircuits.” arXiv [q-Bio.NC]. arXiv. https://doi.org/10.48550/arXiv.2508.06501.
+
