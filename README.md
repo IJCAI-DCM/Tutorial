@@ -1,5 +1,5 @@
-# IJCAI Tutorial
-## Dynamical causal modelling: a Bayesian computational framework for multi-scale hypothesis-testing  
+# IJCAI 2026 - Tutorial on Dynamical causal modelling
+## A Bayesian computational framework for multi-scale hypothesis-testing  
 This tutorial will teach the conceptual background and practical skills of mesoscopic model building in (human) neuroscience using DCM. We will focus on multi-modal hypothesis-testing with a concrete case study of how to link structural neural data (neurotransmitter) to functional electroencephalographic data. The taught skills are essential to utilise vast amounts of (openly-accessible) neural / biological data effectively for testing multi-scale hypothesis about structure-function relationships in (human) brains; it facilitates translational / pharmaceutical / medical, and computational research. 
 
 Using the academic open-source freeware Statistical Parametric Mapping (SPM)[1,2], we demonstrate how to model human intracranial EEG in the frequency domain, and to test how neurotransmitter receptor data explains regional variations across the cortex [3,4]. For this, an established neural mass model - the canonical microcircuit (CMC)[5,6]-, variational Bayesian inference - dynamic causal modelling (DCM)[7,8]-, hierarchical hypothesis testing - parametric emirical Bayes (PEB)[9,10] -, and open source iEEG [11] and receptor density data [12] will be used. 
