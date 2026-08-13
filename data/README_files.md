@@ -34,7 +34,7 @@
   
 ##### 4. DCM CMC examples:
 - these files are examples for the estimated DCM CMC model for the two cuneus traces in the frequency domain
-- the DCM object is a matlab structure ([>description](https://github.com/spm/spm/blob/main/spm_dcm_estimate.m)), and following fields should be highlighted: 
+- the DCM object is a matlab structure ([>> description](https://github.com/spm/spm/blob/main/spm_dcm_estimate.m)), and following fields should be highlighted: 
 
 | Description  | Field |
 | ------------- | ------------- |
