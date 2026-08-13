@@ -5,6 +5,17 @@
 2. PEB estimation:  ...
 3. Normative use case: ...
 
+Workflow chart:
+
+```mermaid
+graph TD;
+    DCM(1st_Level_Parameters)-->PEB(2nd_Level_Parameters);
+    1st_Level_Parameters -->C;
+    PEB-->D;
+    D-->F;
+```
+
+
 ---
 
 #### Details:
