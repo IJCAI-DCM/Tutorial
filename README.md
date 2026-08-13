@@ -11,9 +11,9 @@ As the approach is efficient, flexible and adaptive, you will be able to model a
 ## Relevance
 We present an effective, principled framework to integrate neural data and test any kind of hypothesis relating to mesoscopic functioning of the (human) brain. This is relevant for applied and theoretical (computational) clinical / medical / translational / pharmaceutical / biological researchers, who aim to understand mechanisms and dynamics in the brain, how dysfunctions are caused, and how, e.g., underlying neurobiology enables function and can be manipulated.
 
-Further, (mesoscale) neuro-inspired architecture is more (energetically) efficient, causal, and capable than many current implementations of artificial intelligence. In that sense, theoretical / computational neuroscience offers insight about the implementation of natural intelligence and neural principles underlying cognitive processes [13,14].
+Further, (mesoscale) neuro-inspired architecture is more (energetically) efficient, causal, and capable than many current implementations of artificial intelligence. In that sense, theoretical / computational neuroscience offers insight about the implementation of natural intelligence and neural principles underlying cognitive processes [14,15].
 
-## Software      
+## Software and data      
 SPM [Download](https://www.fil.ion.ucl.ac.uk/spm/), [Documentation](https://www.fil.ion.ucl.ac.uk/spm/docs/) [1,2]
 
 The SPM software is written in MathWorks MATLAB, and we will use MATLAB code. Therefore, to implement or run the code directly in the tutorial, a MATLAB license would be required. Please download and install the software to follow along (see also [1]).
@@ -22,6 +22,19 @@ Alternatives to using MATLAB:
 - pre-compilled MATLAB SPM code and run via command line
 - Octave as a free MATLAB alternative  
 - SPM in Python, and adjusting the code in our example
+
+Datasets:
+- normative iEEG data [11] [Frauscher et al. 2018](https://mni-open-ieegatlas.research.mcgill.ca/)
+- autoradiography-derived receptor densities [12] [Zilles and Palomero-Gallagher, 2017, Suppl. Table 2](https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2017.00078/full#supplementaryMaterial)
+- mismatch negativity evoked response [13] [Garrido et al. 2007](https://www.fil.ion.ucl.ac.uk/spm/data/eeg_mmn/)
+
+Other M/EEG open datasets:
+- [Fieldtrip List](https://www.fieldtriptoolbox.org/faq/other/open_data/)
+- [NeuroTechX List](https://github.com/NeuroTechX/awesome-bci#brain-databases)
+- [OpenLists](https://openlists.github.io/data/)
+- [OpenNeuro](https://openneuro.org/)
+- [Review, Subash et al. 2023, Nature](https://www.nature.com/articles/s41597-023-02614-0)
+- [Sharing, Lefort-Besnard et al. 2025](https://apertureneuro.org/article/144839-which-infrastructure-can-i-use-to-share-human-neuroimaging-data-a-survey-and-literature-review-on-current-solutions-for-eu-researchers)
 
 ## Tutorial contents
 ### Theory and concepts (30 min)
@@ -65,7 +78,10 @@ Alternatives to using MATLAB:
 #### Autoradiography-derived neurotransmitter receptor densities
 - [[12](https://doi.org/10.3389/fnana.2017.00078)] Zilles, Karl, and Nicola Palomero-Gallagher. 2017. “Multiple Transmitter Receptors in Regions and Layers of the Human Cerebral Cortex.” Frontiers in Neuroanatomy 11 (September): 78.
 
+### Mismatch negativity paradigm and DCM ERP model comparison
+- [[13](https://www.sciencedirect.com/science/article/pii/S1053811907002273)] Garrido, Marta I., James M. Kilner, Stefan J. Kiebel, Klaas E. Stephan, and Karl J. Friston. 2007. “Dynamic Causal Modelling of Evoked Potentials: A Reproducibility Study.” NeuroImage 36 (3): 571–80.
+
 ### Efficient computing with microciruits
-- [[13](https://doi.org/10.1126/sciadv.adr6698)] George, Dileep, Miguel Lázaro-Gredilla, Wolfgang Lehrach, Antoine Dedieu, Guangyao Zhou, and Joseph Marino. 2025. “A Detailed Theory of Thalamic and Cortical Microcircuits for Predictive Visual Inference.” Science Advances 11 (6): eadr6698.
-- [[14](https://doi.org/10.48550/arXiv.2508.06501.)] Douglas, P. K. 2025. “Computing with Canonical Microcircuits.” arXiv [q-Bio.NC]. arXiv.
+- [[14](https://doi.org/10.1126/sciadv.adr6698)] George, Dileep, Miguel Lázaro-Gredilla, Wolfgang Lehrach, Antoine Dedieu, Guangyao Zhou, and Joseph Marino. 2025. “A Detailed Theory of Thalamic and Cortical Microcircuits for Predictive Visual Inference.” Science Advances 11 (6): eadr6698.
+- [[15](https://doi.org/10.48550/arXiv.2508.06501.)] Douglas, P. K. 2025. “Computing with Canonical Microcircuits.” arXiv [q-Bio.NC]. arXiv.
 
