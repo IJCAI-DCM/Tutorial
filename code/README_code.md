@@ -6,6 +6,7 @@
 3. Normative use case: ...
 
 Workflow chart:
+![alt text](https://github.com/IJCAI-DCM/Tutorial/main/code/DCM_workflow.png)
 
 ```mermaid
 graph TD;
