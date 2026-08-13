@@ -1,22 +1,12 @@
+![alt text](https://github.com/IJCAI-DCM/Tutorial/blob/main/code/DCM_workflow.png)
+---
+
 ### Description of workflow and code files
 
 #### Files:
 1. DCM inversion:  ...
 2. PEB estimation:  ...
 3. Normative use case: ...
-
-Workflow chart:
-![alt text](https://github.com/IJCAI-DCM/Tutorial/main/code/DCM_workflow.png)
-
-```mermaid
-graph TD;
-    DCM(1st_Level_Parameters)-->PEB(2nd_Level_Parameters);
-    1st_Level_Parameters -->C;
-    PEB-->D;
-    D-->F;
-```
-
-
 ---
 
 #### Details:
