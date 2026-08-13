@@ -29,12 +29,9 @@ Datasets:
 - [mismatch negativity evoked response](https://www.fil.ion.ucl.ac.uk/spm/data/eeg_mmn/) (Garrido et al. 2007)[13]
 
 Other M/EEG open datasets:
-- [Fieldtrip List](https://www.fieldtriptoolbox.org/faq/other/open_data/)
-- [NeuroTechX List](https://github.com/NeuroTechX/awesome-bci#brain-databases)
-- [OpenLists](https://openlists.github.io/data/)
-- [OpenNeuro](https://openneuro.org/)
-- [Review of some EEG databases, Subash et al. 2023, Nature Scientific Data](https://www.nature.com/articles/s41597-023-02614-0)
-- [EU neuro data sharing review, Lefort-Besnard et al. 2025 Aperture Neuro (OHBM)](https://apertureneuro.org/article/144839-which-infrastructure-can-i-use-to-share-human-neuroimaging-data-a-survey-and-literature-review-on-current-solutions-for-eu-researchers)
+- Lists and databases: [Fieldtrip List](https://www.fieldtriptoolbox.org/faq/other/open_data/), [NeuroTechX List](https://github.com/NeuroTechX/awesome-bci#brain-databases), [OpenLists](https://openlists.github.io/data/), [OpenNeuro](https://openneuro.org/)
+- [Review of some EEG databases](https://www.nature.com/articles/s41597-023-02614-0) (Subash et al. 2023, Nature Scientific Data)
+- [EU neuro data sharing review](https://apertureneuro.org/article/144839-which-infrastructure-can-i-use-to-share-human-neuroimaging-data-a-survey-and-literature-review-on-current-solutions-for-eu-researchers) (Lefort-Besnard et al. 2025 Aperture Neuro (OHBM))
 
 ## Tutorial contents
 ### Theory and concepts (30 min)
