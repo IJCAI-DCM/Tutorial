@@ -7,8 +7,8 @@
 
 | Step | Description  | SPM Function | Documentation Link | Code Files |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 1 | inversion of CMC parameters            | spm_dcm_csd  | [Docs](https://github.com/spm/spm/blob/main/toolbox/dcm_meeg/spm_dcm_csd.m) | ... |
-| 2 | group level modelling (PEB)            | spm_dcm_peb  | [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb.m) | ... |
+| 1 | inversion of CMC parameters            | spm_dcm_csd  | [Docs](https://github.com/spm/spm/blob/main/toolbox/dcm_meeg/spm_dcm_csd.m) | mni_dcm_IJCAI.m |
+| 2 | group level modelling (PEB)            | spm_dcm_peb  | [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb.m) | mni_peb_IJCAI.m |
 | 3 | re-estimating 1st level                | spm_dcm_peb_fit  | [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb_fit.m) | ... |
 | 4 | use case for normative priors          | custom | custom | ... |
 
@@ -20,7 +20,10 @@
 ##### 1. DCM inversion for the CMCs (1st level):
 - the posteriors are inverted for the canonical microcircuit (CMC) with standard priors to obtain baseline model fits and evidence (free energy)
 - variational Laplace (priors with Gaussian form) is used to iteratively update priors to obtain the fit and evidence
-- code files: ...
+- code files:
+  - "mni_dcm_IJCAI.m": preparation of the .edf files (create > MEEG object), and CMC inversion with DCM
+  - "mni_housekeeping_IJCAI.m": directory definitions (please define)
+  - SPM_Edits: minor edits for the the SPM standard functions
 ---
 
 ##### 2. Parameter optimisation with PEB (2nd level):
