@@ -24,7 +24,7 @@ Alternatives to using MATLAB:
 - SPM in Python, and adjusting the code in our example
 
 Datasets:
-- normative iEEG data [11] [Frauscher et al. 2018](https://mni-open-ieegatlas.research.mcgill.ca/)
+- [normative iEEG data](https://mni-open-ieegatlas.research.mcgill.ca/) [11] (Frauscher et al. 2018)
 - autoradiography-derived receptor densities [12] [Zilles and Palomero-Gallagher, 2017, Suppl. Table 2](https://www.frontiersin.org/journals/neuroanatomy/articles/10.3389/fnana.2017.00078/full#supplementaryMaterial)
 - mismatch negativity evoked response [13] [Garrido et al. 2007](https://www.fil.ion.ucl.ac.uk/spm/data/eeg_mmn/)
 
