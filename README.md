@@ -33,8 +33,8 @@ Other M/EEG open datasets:
 - [NeuroTechX List](https://github.com/NeuroTechX/awesome-bci#brain-databases)
 - [OpenLists](https://openlists.github.io/data/)
 - [OpenNeuro](https://openneuro.org/)
-- [Review, Subash et al. 2023, Nature](https://www.nature.com/articles/s41597-023-02614-0)
-- [Sharing, Lefort-Besnard et al. 2025](https://apertureneuro.org/article/144839-which-infrastructure-can-i-use-to-share-human-neuroimaging-data-a-survey-and-literature-review-on-current-solutions-for-eu-researchers)
+- [Review of some EEG databases, Subash et al. 2023, Nature Scientific Data](https://www.nature.com/articles/s41597-023-02614-0)
+- [EU neuro data sharing review, Lefort-Besnard et al. 2025 Aperture Neuro (OHBM)](https://apertureneuro.org/article/144839-which-infrastructure-can-i-use-to-share-human-neuroimaging-data-a-survey-and-literature-review-on-current-solutions-for-eu-researchers)
 
 ## Tutorial contents
 ### Theory and concepts (30 min)
