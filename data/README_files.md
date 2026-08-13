@@ -1,4 +1,4 @@
-# Description of data files
+#Description of data files
 
 Files:
 - iEEG sample file:    (source: )
