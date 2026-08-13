@@ -75,10 +75,10 @@ Other M/EEG open datasets:
 #### Autoradiography-derived neurotransmitter receptor densities
 - [[12](https://doi.org/10.3389/fnana.2017.00078)] Zilles, Karl, and Nicola Palomero-Gallagher. 2017. “Multiple Transmitter Receptors in Regions and Layers of the Human Cerebral Cortex.” Frontiers in Neuroanatomy 11 (September): 78.
 
-### Mismatch negativity paradigm and DCM ERP model comparison
+#### Mismatch negativity paradigm and DCM ERP model comparison
 - [[13](https://www.sciencedirect.com/science/article/pii/S1053811907002273)] Garrido, Marta I., James M. Kilner, Stefan J. Kiebel, Klaas E. Stephan, and Karl J. Friston. 2007. “Dynamic Causal Modelling of Evoked Potentials: A Reproducibility Study.” NeuroImage 36 (3): 571–80.
 
-### Efficient computing with microciruits
+#### Efficient computing with microciruits
 - [[14](https://doi.org/10.1126/sciadv.adr6698)] George, Dileep, Miguel Lázaro-Gredilla, Wolfgang Lehrach, Antoine Dedieu, Guangyao Zhou, and Joseph Marino. 2025. “A Detailed Theory of Thalamic and Cortical Microcircuits for Predictive Visual Inference.” Science Advances 11 (6): eadr6698.
 - [[15](https://doi.org/10.48550/arXiv.2508.06501.)] Douglas, P. K. 2025. “Computing with Canonical Microcircuits.” arXiv [q-Bio.NC]. arXiv.
 
