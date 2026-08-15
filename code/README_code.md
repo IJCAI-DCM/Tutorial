@@ -9,7 +9,7 @@
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1 | inversion of CMC parameters            | spm_dcm_csd  | [Docs](https://github.com/spm/spm/blob/main/toolbox/dcm_meeg/spm_dcm_csd.m) | mni_dcm_IJCAI.m |
 | 2 | group level modelling (PEB)            | spm_dcm_peb  | [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb.m) | mni_peb_IJCAI.m |
-| 3 | re-estimating 1st level                | spm_dcm_peb_fit  | [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb_fit.m) | ... |
+| 3 | re-estimating 1st level                | spm_dcm_peb_fit <br> heel  | [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb_fit.m) | ... |
 | 4 | use case for normative priors          | custom | custom | ... |
 
 ---
@@ -33,4 +33,5 @@
 ---
   
 ##### 3. Use case for normative CMC priors: 
-- ...
+- to showcase how the CMC priors can be used (and generalise), we included a short tutorial for the mismatch negativity paradigm > please see details in the MEG folder
+- 
