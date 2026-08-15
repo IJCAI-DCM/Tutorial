@@ -8,12 +8,10 @@
 | Step | Description  | SPM Function | Documentation Link | Code Files |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 1 | inversion of CMC parameters            | spm_dcm_csd  | [Docs](https://github.com/spm/spm/blob/main/toolbox/dcm_meeg/spm_dcm_csd.m) | mni_dcm_IJCAI.m |
-| 2 | group level modelling (PEB)            | spm_dcm_peb  | [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb.m) | mni_peb_IJCAI.m |
-| 3 | re-estimating 1st level                | spm_dcm_peb_fit <br> heel  | [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb_fit.m) | ... |
-| 4 | use case for normative priors          | custom | custom | ... |
+| 2 | group level modelling (PEB) <br> re-estimating 1st level | spm_dcm_peb <br> spm_dcm_peb_fit| [Docs](https://github.com/spm/spm/blob/main/spm_dcm_peb.m) | mni_peb_IJCAI.m |
+| 3 | use case for normative priors          | custom | custom | [>>MNN MEG](https://github.com/IJCAI-DCM/Tutorial/tree/main/MEG) |
 
 ---
-
 
 
 #### Details:
@@ -29,9 +27,10 @@
 ##### 2. Parameter optimisation with PEB (2nd level):
 - Parametric empirical Bayes (PEB) is used to test hypotheses relating to group data - here receptor densities as regressors - to optimise evidence
 - preprocessing: receptor densities (RD) were matched to iEEG locations in MNI space, RD were averaged regionally and across cortical layers
+- steps: define the PEB model space, estimate PEB parameters (2nd level), re-estimate CMC 1st level parameters using adjusted priors
 - code files: ...
 ---
   
 ##### 3. Use case for normative CMC priors: 
-- to showcase how the CMC priors can be used (and generalise), we included a short tutorial for the mismatch negativity paradigm > please see details in the MEG folder
-- 
+- to showcase how the CMC priors can be used (and generalise), we included a tutorial for the mismatch negativity paradigm > please see details in the MEG folder
+- this illustrates how priors can be assigned to offer an informed alternative to naive priors, and how they can improve model evidence and potentially interpretability
