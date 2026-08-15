@@ -21,7 +21,7 @@
 - code files:
   - "mni_dcm_IJCAI.m": preparation of the .edf files (create > MEEG object), and CMC inversion with DCM
   - "mni_housekeeping_IJCAI.m": directory definitions (please define)
-  - SPM_Edits: minor edits for the the SPM standard functions
+  - SPM_Edits: minor edits for the SPM standard functions
 ---
 
 ##### 2. Parameter optimisation with PEB (2nd level):
@@ -33,4 +33,4 @@
   
 ##### 3. Use case for normative CMC priors: 
 - to showcase how the CMC priors can be used (and generalise), we included a tutorial for the mismatch negativity paradigm > please see details in the MEG folder
-- this illustrates how priors can be assigned to offer an informed alternative to naive priors, and how they can improve model evidence and potentially interpretability
+- this illustrates how priors can be assigned to offer an informed alternative to naive priors, and how they can improve model evidence and interpretability
