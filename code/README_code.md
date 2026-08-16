@@ -28,7 +28,8 @@
 - Parametric empirical Bayes (PEB) is used to test hypotheses relating to group data - here receptor densities as regressors - to optimise evidence
 - preprocessing: receptor densities (RD) were matched to iEEG locations in MNI space, RD were averaged regionally and across cortical layers
 - steps: define the PEB model space, estimate PEB parameters (2nd level), re-estimate CMC 1st level parameters using adjusted priors
-- code files: ...
+- code files:
+  - "mni_peb_IJCAI.m": creation of an appropriate group DCM file, definition of PEB model space (hypotheses, regressors, 1st level parameters) 
 ---
   
 ##### 3. Use case for normative CMC priors: 
