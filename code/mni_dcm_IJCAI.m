@@ -2,7 +2,7 @@
 % Housekeeping
 %==========================================================================
 clear all
-H           = mni_housekeeping;
+H           = mni_housekeeping_IJCAI;
 fs          = filesep;
 Fdata       = H.Fdata;
 Fdcm        = H.Fdcm;
