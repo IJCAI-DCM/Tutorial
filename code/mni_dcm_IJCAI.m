@@ -85,7 +85,7 @@ for f = 1:length(files)
         DCM.M.Hz            = DCM.options.Fdcm(1):DCM.options.D:DCM.options.Fdcm(2);
         DCM.xY.Hz           = DCM.M.Hz;
 
-        %% - Create DCM Struct and specify DCM.options 
+        % - Create DCM Struct and specify DCM.options 
         %--------------------------------------------------------------------------
         DCM.A       = {1 1 1};
         DCM.B    	= {};
