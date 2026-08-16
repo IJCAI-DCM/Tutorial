@@ -1,0 +1,39 @@
+Region_number,Region_name,Lobe
+1,'Superior and middle occipital gyri',Occipital
+2,'Inferior ocipital gyrus and occipital pole',Occipital
+3,'Cuneus',Occipital
+4,'Calcarine cortex',Occipital
+5,'Lingual gyrus and occipital fusiform gyrus',Occipital
+6,'Postcentral gyrus (including medial segment)',Parietal
+7,'Superior parietal lobule',Parietal
+8,'Parietal operculum',Parietal
+9,'Supramarginal gyrus',Parietal
+10,'Angular gyrus',Parietal
+11,'Precuneus',Parietal
+12,'Posterior cingulate',Parietal
+13,'Anterior insula',Insula
+14,'Posterior insula',Insula
+15,'Gyrus rectus and orbital gyri',Frontal
+16,'Anterior cingulate',Frontal
+17,'Middle cingulate',Frontal
+18,'Supplementary motor cortex',Frontal
+19,'Medial frontal cortex',Frontal
+20,'Central operculum',Frontal
+21,'Frontal operculum',Frontal
+22,'Opercular part of inferior frontal gyrus',Frontal
+23,'Triangular part of inferior frontal gyrus',Frontal
+24,'Orbital part of inferior frontal gyrus',Frontal
+25,'Middle frontal gyrus',Frontal
+26,'Superior frontal gyrus and frontal pole',Frontal
+27,'Medial segment of superior frontal gyrus',Frontal
+28,'Medial segment of precentral gyrus',Frontal
+29,'Precentral gyrus',Frontal
+30,'Superior temporal gyrus',Temporal
+31,'Middle temporal gyrus',Temporal
+32,'Inferior temporal gyrus',Temporal
+33,'Temporal pole and planum polare',Temporal
+34,'Transverse temporal gyrus',Temporal
+35,'Planum temporale',Temporal
+36,'Fusiform and parahippocampal gyri',Temporal
+37,'Hippocampus',Temporal
+38,'Amygdala',Temporal
