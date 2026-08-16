@@ -34,12 +34,12 @@ Other M/EEG open datasets:
 - [EU neuro data sharing review](https://apertureneuro.org/article/144839-which-infrastructure-can-i-use-to-share-human-neuroimaging-data-a-survey-and-literature-review-on-current-solutions-for-eu-researchers) (Lefort-Besnard et al. 2025 Aperture Neuro (OHBM))
 
 ## Tutorial contents
-### Theory and concepts (30 min)
+### Theory and concepts (40 min)
 - (generative) models and data modalities in neuroscience research: the purpose and types of in silico models in neuroscience are described, at which spatial scales they can be used, and which (where) data are available
 - Mesoscopic models - neural mass model and canonical microcircuit: mesoscopic models offer (semi)mechanistic explanations as the combine neuroanatomical / -physiological specification with abstraction, which allows them to conceptually bridge the micro- to macro-scale; the reasoning and specification of the DCM canonical microcircuit as a meso-scale model are explained
 - Dynamic causal modelling procedures - Bayes theorem, variational Laplace, hierarchical models: foundations of Bayesian modelling and inference are described and put in context to the DCM framework; it is explained how hypotheses are tested and models compared using hierarchical procedures
 
-### Practical part (75 min)	
+### Practical part (60 min)	
 - Statistical parametric mapping (SPM) freeware / source code and DCM setup: general aspects of the freeware are outlined; a DCM model is setup, its data structure described, and relevant functions explained  
 - Implementation of hierarchical hypotheses to constrain parameters: priors can be used to constrain or inform the inference, and therefore, we will give an overview of how this can be done in DCM to improve model fits
 - Inference for baseline and prior-informed models: models with uninformed and neuroreceptor-informed priors are inferred, and it is explained how priors are effective in guiding the exploration of the evidence landscape  
