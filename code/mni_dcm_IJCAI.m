@@ -29,15 +29,15 @@ for f = 1:length(filesEDF)
         
         % Adjust names according to trial number
         if i >= 100
-            output          = strcat(file(1:end-5),'T',char(string(i)),'_',hdr.label(i),'.mat')
+            output          = strcat(file(1:end-5),'T',char(string(i)),'_',hdr.label(i),'.mat');
         else if i >= 10
-            output          = strcat(file(1:end-5),'T0',char(string(i)),'_',hdr.label(i),'.mat')
+            output          = strcat(file(1:end-5),'T0',char(string(i)),'_',hdr.label(i),'.mat');
             else     
-                output      = strcat(file(1:end-5),'T00',char(string(i)),'_',hdr.label(i),'.mat')
+                output      = strcat(file(1:end-5),'T00',char(string(i)),'_',hdr.label(i),'.mat');
             end 
         end
         
-        D = spm_eeg_ft2spm(ftdata, output);
+        D = spm_eeg_ft2spm(ftdata, output{1});
         save(D);
     end
 
