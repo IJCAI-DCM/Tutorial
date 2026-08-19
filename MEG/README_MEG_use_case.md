@@ -35,7 +35,7 @@ Run the baseline script first.
 
 Place the following files in the `data/` directory:
 
-- `DCM_20HC_standard_pitch_CMC_5source_ULRICH_UNINVERTED.mat`
+- `DCM_20HC_standard_pitch_CMC_5source_ULRICH_UNINVERTED.mat` (in the .zip file)
   - prepared five-source MEG DCM containing the Standard and Pitch Deviant responses;
 - `_DCM_ALL_44reg_PCA.mat`
   - historical receptor-informed iEEG DCM archive containing `DCM_ALL` and posterior `Ep.G` estimates;
@@ -58,7 +58,10 @@ The function declarations in the supplied source files were aligned with their f
 
 ## Software
 
-The scripts require MATLAB and SPM. SPM should already be on the MATLAB path before running either script. The tutorial scripts initialise SPM with EEG defaults and add the local custom-functions directory at the beginning of the path.
+The scripts are prepared for MATLAB and SPM, thus, they would require a license; alternatively, pre-compiled SPM version could be downloaded, Octave as a open-source MATLAB alternative could be run, or you could consider adapting the code to Python as SPM has recently been made available as a Python version as well (detailed explanations on the alternatives can be found in the main [README](https://github.com/IJCAI-DCM/Tutorial/blob/main/README.md) for the tutorial.  
+
+SPM should be on the MATLAB path before running either script. 
+The tutorial scripts initialise SPM with EEG defaults and add the local custom-functions directory at the beginning of the path.
 
 ## Outputs
 
