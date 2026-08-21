@@ -58,7 +58,7 @@ The function declarations in the supplied source files were aligned with their f
 
 ## Software
 
-The scripts are prepared for MATLAB and SPM, thus, they would require a license; alternatively, pre-compiled SPM version could be downloaded, Octave as a open-source MATLAB alternative could be run, or you could consider adapting the code to Python as SPM has recently been made available as a Python version as well (detailed explanations on the alternatives can be found in the main [README](https://github.com/IJCAI-DCM/Tutorial/blob/main/README.md) for the tutorial.  
+The scripts are prepared for MATLAB and SPM, thus, they would require a license; alternatively, a pre-compiled SPM version could be downloaded, Octave as a open-source MATLAB alternative could be run, or you could consider adapting the code to Python as SPM has recently been made available as a Python version (detailed explanations on the alternatives can be found in the main [README](https://github.com/IJCAI-DCM/Tutorial/blob/main/README.md) for the tutorial).  
 
 SPM should be on the MATLAB path before running either script. 
 The tutorial scripts initialise SPM with EEG defaults and add the local custom-functions directory at the beginning of the path.
